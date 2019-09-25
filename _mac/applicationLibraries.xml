@@ -1,0 +1,30 @@
+<application>
+  <component name="libraryTable">
+    <library name="@types/angular" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/express" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/mongodb" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/mongoose" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="@types/sequelize" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
+    <library name="angular" type="javaScript">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_angularjs_1.6.6_angular.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>

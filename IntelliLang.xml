@@ -1,0 +1,16 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="HTML" injector-id="xml">
+      <display-name>div</display-name>
+      <place disabled="true"><![CDATA[xmlTag().withLocalName(string().equalTo("div")).withNamespace(string().equalTo("http://www.w3.org/1999/html"))]]></place>
+    </injection>
+    <injection language="CSS" injector-id="xml">
+      <display-name>link/@href</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("href")).withParent(xmlTag().withLocalName(string().equalTo("link")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+    <injection language="JavaScript 1.8" injector-id="xml">
+      <display-name>script/@src</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("src")).withParent(xmlTag().withLocalName(string().equalTo("script")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
+    </injection>
+  </component>
+</application>
